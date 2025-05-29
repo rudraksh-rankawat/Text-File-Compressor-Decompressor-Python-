@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/40d1fad3-34d5-4f12-b816-adf6c139a72f
 
 
 
-## 🚀 How It Works
+##  How It Works
 
 This application uses the following Python modules:
 * `tkinter`: For creating the graphical user interface.
@@ -26,12 +26,12 @@ When you decompress a file:
 3.  `zlib` decompresses this binary data back into the original text.
 4.  The restored text is saved to a new file with `_decompressed.txt` suffix.
 
-## 📦 Installation
+##  Installation
 
 1.  **Clone this repository:**
 2.  **No special dependencies are required** beyond Python's standard library. Ensure you have Python 3.x installed.
 
-## 🏃‍♀️ How to Run
+##  How to Run
 
 1.  Navigate to the project directory in your terminal.
 2.  Run the `main.py` script:
