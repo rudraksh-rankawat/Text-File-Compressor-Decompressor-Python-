@@ -1,23 +1,11 @@
 # Text File Compressor/Decompressor (Python)
-
-![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg) A simple desktop application built with Tkinter for compressing and decompressing text files using `zlib` and `base64`.
-
-
+built a simple desktop application built with Tkinter for compressing and decompressing text files using zlib and base64. I learnt about so many things while building this. Particulary read about Unicode, how encoding works, how file compression works (lossless and lossy), DEFLATE Algorithm (which uses combination of LZ 77 and Huffman coding, which zlib uses internally too), filedialog in Tkinter. I loved this one. The code could be rudimentary, specially the methods to set text file names. Error handling is not done properly either. But I enjoyed making the prototype.
 
 
 
 https://github.com/user-attachments/assets/40d1fad3-34d5-4f12-b816-adf6c139a72f
 
 
-
-
-
-## ✨ Features
-
-* **Compress Text Files:** Reduces the size of `.txt` files.
-* **Decompress Compressed Files:** Restores compressed files back to their original text.
-* **User-Friendly GUI:** Simple interface powered by Tkinter.
 
 ## 🚀 How It Works
 
@@ -40,12 +28,7 @@ When you decompress a file:
 
 ## 📦 Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YourUsername/your-repo-name.git](https://github.com/YourUsername/your-repo-name.git)
-    cd your-repo-name
-    ```
-
+1.  **Clone this repository:**
 2.  **No special dependencies are required** beyond Python's standard library. Ensure you have Python 3.x installed.
 
 ## 🏃‍♀️ How to Run
@@ -57,35 +40,8 @@ When you decompress a file:
     ```
     This will open the application window.
 
-## 🛠️ Usage
 
-1.  Click the "Select File to Compress" button to choose a `.txt` file you want to compress.
-2.  A new file with `_compressed.txt` will be created in the same directory, containing the compressed data.
-3.  Click the "Select File to Decompress" button to choose a `_compressed.txt` file.
-4.  A new file with `_decompressed.txt` will be created, containing the original text.
 
-## 📸 Screenshots (Optional but Recommended)
 
-*(Add screenshots of your application here. This greatly helps users understand what to expect.)*
-
-## 💡 Future Enhancements (Optional)
-
-* Add options to specify output directory.
-* Implement progress bar for large files.
-* Support for more file types (e.g., binary files, though this would require changing how files are read/written).
-* Add a clear button to reset selected file.
-* Improve UI aesthetics.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions or want to improve the code, feel free to open an issue or submit a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-Your Name - [Your Email/GitHub Profile Link]
 
 ---
