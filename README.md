@@ -3,6 +3,12 @@
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg) A simple desktop application built with Tkinter for compressing and decompressing text files using `zlib` and `base64`.
 
+
+
+Uploading Compressor_Proto.mov…
+
+
+
 ## ✨ Features
 
 * **Compress Text Files:** Reduces the size of `.txt` files.
